@@ -4,11 +4,11 @@ import Homepage from './components/homepage/Homepage'
 import NameForm from './components/nameForm/NameForm'
 
 const App = () => {
-  // const [username, setUsername] = useState('')
+  const [username, setUsername] = useState('')
   return (
     <div>
       <Structure />
-      {/* {username == '' ? <NameForm /> : <Homepage />} */}
+      {username == '' ? <NameForm /> : <Homepage />}
     </div>
   )
 }
