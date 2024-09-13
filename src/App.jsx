@@ -5,10 +5,12 @@ import NameForm from './components/nameForm/NameForm'
 
 const App = () => {
   const [username, setUsername] = useState('')
+
+  
   return (
     <div>
       <Structure />
-      {username == '' ? <NameForm /> : <Homepage />}
+      {username == '' ? <NameForm username={username} setUsername={setUsername} /> : <Homepage />}
     </div>
   )
 }
