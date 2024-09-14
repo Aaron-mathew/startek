@@ -4,7 +4,12 @@ const NameForm = (props) => {
   const [userInput, setUserInput] = useState('')
   const submitHandler = (e) => {
     e.preventDefault()
-   props.setUsername(userInput)
+    props.setUsername(userInput)
+
+    // setTimeout(function(){
+      localStorage.setItem('user', userInput)
+    // },2000)
+
   }
   return (
     <div className='relative'>
