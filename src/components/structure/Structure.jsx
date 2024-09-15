@@ -3,16 +3,11 @@ import React from 'react'
 const Structure = () => {
   return (
     <div className='fixed p-4 h-screen w-screen bg-[#F4F9FB]'>
-        <div className='fixed top-0 left-0 w-full'>
-            <img className='absolute top-0 left-0 w-1/2' src="https://cdn.prod.website-files.com/65ef0d86eff3b9ba6b18aef9/65f2ff660acfee8ba5cd3b36_border-left-top.svg" alt="" />
-            <img className='absolute top-0 right-0 w-1/2' src="https://cdn.prod.website-files.com/65ef0d86eff3b9ba6b18aef9/66603af083943342fe214cf9_border-right-top-new.svg" alt="" />
-        </div>
+
         <div className='fixed top-10 w-full'>
             <img className='absolute -ml-[17vw] h-[8vh] top-0 w-1/2' src="https://cdn.prod.website-files.com/65ef0d86eff3b9ba6b18aef9/660303290d04849733a63177_startech%20full.svg" alt="" />
         </div>
-        <div className='fixed left-0 top-1/2 -translate-y-1/2'>
-            <img className='w-24' src="https://cdn.prod.website-files.com/65ef0d86eff3b9ba6b18aef9/65f3025ed598b85f146d736d_border-left-center.svg" alt="" />
-        </div>
+
         <div className='fixed left-20 top-1/2 -translate-y-1/2'>
             <svg xmlns="http://www.w3.org/2000/svg" width="13%" height="13%" color='white' viewBox="0 0 37 152" fill="none">
                     <path d="M25.55 0.999802L10.9501 0.999801" stroke="currentColor"></path>
@@ -59,20 +54,9 @@ const Structure = () => {
                 <path d="M25.55 151.171L10.9501 151.171" stroke="currentColor"></path>
             </svg>       
         </div>
-        <div className='fixed right-0 top-1/2 -translate-y-1/2'>
-            <img className='w-24' src="https://cdn.prod.website-files.com/65ef0d86eff3b9ba6b18aef9/65f302f74ee53940c8b3ece4_border-right-center.svg" alt="" />
-        </div>
-        <div className='absolute items-center flex justify-between px-20 w-full left-0 bottom-20'>
-            <img className='h-48 left-0' src="https://cdn.prod.website-files.com/65ef0d86eff3b9ba6b18aef9/6601a44ad564d4d03ce8f94f_Object1.svg" alt="" />
-            <img className='h-24 right-0' src="https://cdn.prod.website-files.com/65ef0d86eff3b9ba6b18aef9/6601a486295efb3bb8c5d777_Object2.svg" alt="" />
-        </div>
-        <div className='absolute items-center flex justify-between px-[4vw] w-full left-0 bottom-[9vh]'>
-            <svg xmlns="http://www.w3.org/2000/svg" width="20%" height="20%" viewBox="0 0 203 78" fill="none">
-                <path d="M1 1V77.5901H202" stroke="white" stroke-width="0.56" stroke-linecap="round" stroke-linejoin="round"></path>
-                <path d="M61.9915 65.1895H1V77.5903H61.9915H89.7797L61.9915 65.1895Z" fill="white"></path>
-            </svg>
-            <img className='h-2 mt-20 right-0' src="https://cdn.prod.website-files.com/65ef0d86eff3b9ba6b18aef9/65f463912ba41fbbe606c6ee_decor-bottom-right.svg" alt="" />
-        </div>
+
+
+
         <div className='h-full w-full bg-[#E5E9EC] rounded-1xl'>
             <img className='h-full w-full object-cover' src="https://cdn.prod.website-files.com/65ef0d86eff3b9ba6b18aef9/6601b7d63c31da7e5be13f14_Frame%201815%20copy-min%20(1).webp" alt="" />
         </div>
@@ -81,3 +65,6 @@ const Structure = () => {
 }
 
 export default Structure
+
+
+//-1:01:48
